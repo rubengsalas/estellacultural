@@ -1,0 +1,157 @@
+<html>
+    <head>
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <title>Estella Cultural</title>
+        <style>
+            body { 
+                margin: 0;
+            }
+            .header{
+                background: #cccccc;
+                overflow: hidden;
+                padding: 20px 10px;
+            }
+            .right{
+                float: right;
+            }
+            .left{
+                float: left;
+            }
+            .logoestella{
+                width: auto;
+                height: 120px;
+            }
+            .idiomas{
+                width: auto;
+                height: 40px;
+            }
+            .slogan{
+                width: 100%;
+                margin-top: 10px;
+                margin-bottom: 10px;
+                height: auto;
+                position: relative;
+                text-align: center;
+                color: white
+            }
+            .slogantop{
+                width: 100%;
+                height: auto;
+                position: relative;
+                text-align: center;
+                color: white
+            }
+            .center{
+                position: absolute;
+                top: 50%;
+                left: 50%;
+                transform: translate(-50%, -50%);
+            }
+            .texto2{
+                color: black;
+                font-size: 20px;
+                font-family: Arial, Helvetica, sans-serif;
+                text-align: center;
+            }
+            .texto3{
+                color: white;
+                font-size: 20px;
+                font-family: Arial, Helvetica, sans-serif;
+                text-align: center;
+            }
+            @media screen and (max-width: 1024px){
+                .texto{
+                color: white;
+                font-size: 30px;
+                font-family: Arial, Helvetica, sans-serif;
+                }
+                .grid{
+                    display: grid;
+                    grid-template-columns: 1fr;
+                }
+            }
+            @media screen and (min-width: 1025px){
+                .texto{
+                color: white;
+                font-size: 50px;
+                font-family: Arial, Helvetica, sans-serif;
+                }
+                .grid{
+                    display: grid;
+                    grid-template-columns: 1fr 1fr;
+                }
+            }
+        </style>
+    </head>
+    <body>
+        <div>
+            <div class="header">
+                <div class="left"> <a href="index.html"><img src="estella-cultural-p.png" class="logoestella"></a></div>
+                <div class="right">
+                    <div style="margin: 15px;">
+                        <img src="espicon.png" class="idiomas">
+                    </div>
+                    <div style="margin: 15px;">
+                        <img src="engicon.png" class="idiomas">
+                    </div>
+                </div>
+                <div class="right"><img src="logoestella.png" class="logoestella"></div>
+            </div>
+
+            <div class="slogantop">
+                <img src="estellaimagen1.png" style="width: 100%;">
+                <div class="center"><p class="texto"><b>Estella: Pasear para conocerla</b></p></div>
+            </div>
+            <div><p class="texto2"><b>Verano 2021: <a href="#default">Inscripciones</a></b></p></div>
+            <div class="grid">
+                <div>
+                    <p class="texto2"><b>Paseos Culturales</b></p>
+                    <div class="slogan">
+                        <img src="estellamedievalweb.png" style="width: 100%;">
+                        <div class="center"><p class="texto3"><b>Estella Medieval</b></p></div>
+                    </div>
+                    <div class="slogan">
+                        <img src="estellapaseosweb.png" style="width: 100%;">
+                        <div class="center"><p class="texto3"><b>Rutas Estella</b></p></div>
+                    </div>
+                    <div class="slogan">
+                        <img src="estellareligiosaweb.png" style="width: 100%;">
+                        <div class="center"><p class="texto3"><b>Estella Religiosa</b></p></div>
+                    </div>
+                </div>
+                <div>
+                    <p class="texto2"><b>Estella Monumental</b></p>
+                    <div class="slogan">
+                        <img src="puentepicudoweb.png" style="width: 100%;">
+                        <div class="center"><p class="texto3"><b>Puente Picudo</b></p></div>
+                    </div>
+                    <div class="slogan">
+                        <img src="palacioreyesweb.png" style="width: 100%;">
+                        <div class="center"><p class="texto3"><b>Palacio de los Reyes</b></p></div>
+                    </div>
+                    <div class="slogan">
+                        <img src="santosepulcroweb.png" style="width: 100%;">
+                        <div class="center"><p class="texto3"><b>Santo Sepulcro</b></p></div>
+                    </div>
+                </div>
+            </div>
+            <div class="header">
+                <div class="left">
+                    <img src="estella-cultural-p.png" class="logoestella">
+                </div>
+                <div class="left">
+                    <p><b>Plaza de los Fueros, 1. 3100 Estella<br>
+                        Tel. 94 55 55 55<br>
+                        info@estellacultural.org
+                    </b></p>
+                </div>
+                <div class="right">
+                    <p><b>Actividad Realizada por Rubén García Salas,<br>
+                    para la asignatura de Diseño de Interfaces Web.<br>
+                    Primer semestre del curso 2020-2021
+                    </b></p>
+                </div>
+            </div>
+        </div>
+    </body>
+</html>
